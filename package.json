@@ -1,0 +1,33 @@
+{
+  "name": "sdkv",
+  "version": "1.0.0",
+  "description": "A sd wrapper that takes parameters and then finds and replaces mustache like tags using those keys and values.",
+  "main": "index.js",
+  "bin": {
+    "sdkv": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k2052/sdkv.git"
+  },
+  "keywords": [
+    "sed",
+    "sd",
+    "regex",
+    "mustache"
+  ],
+  "author": "K-2052",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k2052/sdkv/issues"
+  },
+  "homepage": "https://github.com/k2052/sdkv#readme",
+  "dependencies": {
+    "meow": "^5.0.0",
+    "prettier": "^1.17.1",
+    "shelljs": "^0.8.3"
+  }
+}
